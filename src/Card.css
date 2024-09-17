@@ -1,0 +1,79 @@
+.container {
+  width: 32rem;
+  height: 780px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.155);
+  background: #1a1b21;
+
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .userName {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .userPosition {
+    color: #f3bf99;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 0;
+  }
+
+  .userWeb {
+    text-align: center;
+    display: block;
+    font-size: 1.1rem;
+  }
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+
+  .btn {
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 6px;
+    width: 11rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #374151;
+  }
+
+  .btn:last-child {
+    background: #5093e2;
+    color: white;
+  }
+}
+
+.userDescription {
+  padding: 3rem 3rem 0 3rem;
+  font-size: 1.1rem;
+
+  h3 {
+    font-size: 1.6rem;
+    line-height: 0;
+  }
+}
+
+.SocialBackground {
+  background: #161619;
+  border-radius: 0 0 5px 5px;
+  margin-top: 2rem;
+
+  .social-icons {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
